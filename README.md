@@ -3,7 +3,7 @@ TensorFlow framework provides distributed training via data parallelism.
 
 Data parallelism means the data is split into several slices while the model architecture is the same among different devices.
 
-And finally, there should be one master model that aggregates all different weights from each replica (the modele within the device).
+And finally, there should be one master model that aggregates all different weights from each replica (the model within the device).
 
 TensorFlow has diffrernt stategies :
 
